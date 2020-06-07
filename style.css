@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background: linear-gradient(to right, #4287f5, #9942f5, #ff87cd);
+}
+
+h1{
+    font-family: 'Baloo Thambi 2', cursive;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 6vw;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    margin: 30px;
+}
+
+button{
+    font-family: 'Raleway', sans-serif;
+    font-size: inherit;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    width: 80px;
+    height: 30px;
+}
+
+.color:hover, button:hover{
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
